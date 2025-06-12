@@ -21,20 +21,14 @@ Delicious Bites is a beautifully crafted food and recipe blog where users can ex
 🛠️ Tech Stack
 Platform: LiveBlog365
 
-Languages: HTML, CSS
+Languages: HTML, CSS, Javascript.
 
 Content Management: LiveBlog365’s built-in blog editor
 
-Design Tools: Canva / Figma (if applicable)
+Design Tools:  Figma 
 
 📸 Screenshots
-(You can add screenshots of your blog homepage, a recipe post, and mobile view here in GitHub.)
 
-markdown
-Copy
-Edit
-![Home Page](images/homepage.png)
-![Recipe Page](images/recipe.png)
 🚀 Getting Started
 This blog was created using the LiveBlog365 platform. You can build similar blogs by:
 
@@ -51,10 +45,10 @@ Publishing and sharing!
 📩 Contact
 For any suggestions or collaborations, feel free to connect with me:
 
-📧 Email: your-email@example.com
+📧 Email: vanshkumar707878@gmail.com@example.com
 
 🌐 Portfolio: https://portfolio.uca.icu/
 
 ⭐ Credits
-Created with ❤️ by [Your Name]
+Created with ❤️ by VANSH
 All images and content belong to their respective owners.
