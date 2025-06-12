@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Delicious Bites - Menu</title>
+    <link rel="stylesheet" href="order.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Delicious Bites</h1>
+      <p>Flavors that touch your heart</p>
+    </header>
+    <nav id="category-nav">
+      <button class="active" data-category="all">All</button>
+      <button data-category="Indian">Indian</button>
+      <button data-category="South Indian">South Indian</button>
+      <button data-category="Fast Food">Fast Food</button>
+      <button data-category="Chinese">Chinese</button>
+    </nav>
+    <input type="text" id="search-input" placeholder="Search food items..." />
+
+    <section id="menu-grid">
+      <!-- Food items inserted here by JS -->
+    </section>
+
+    <!-- Cart bar at bottom -->
+    <div id="cart-bar" style="display: none">
+      Cart: <span id="cart-count">0</span> items — ₹<span id="cart-total-price"
+        >0</span
+      >
+    </div>
+
+    <!-- Cart modal -->
+    <div
+      id="cart-modal"
+      aria-modal="true"
+      role="dialog"
+      aria-labelledby="cart-title"
+      tabindex="-1"
+    >
+      <h2 id="cart-title">Your Cart</h2>
+      <div id="cart-items-container">
+        <!-- Cart items here -->
+      </div>
+      <div id="cart-total">Total: ₹0</div>
+      <button id="order-now-btn">Order Now</button>
+    </div>
+
+    <!-- Order modal -->
+    <div id="order-modal" aria-modal="true" role="dialog" tabindex="-1">
+      <div class="modal-content">
+        <button class="close-btn" aria-label="Close order form">&times;</button>
+        <h2>Place Your Order</h2>
+        <form id="order-form">
+          <label for="name">Name *</label>
+          <input id="name" name="name" type="text" required />
+          <label for="phone">Phone Number *</label>
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            pattern="[0-9]{10,15}"
+            required
+          />
+          <label for="address">Address *</label>
+          <textarea id="address" name="address" rows="3" required></textarea>
+          <button type="submit">Send Order on WhatsApp</button>
+        </form>
+      </div>
+    </div>
+    <script src="order.js"></script>
+  </body>
+</html>
