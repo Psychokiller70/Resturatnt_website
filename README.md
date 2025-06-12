@@ -45,7 +45,7 @@ Publishing and sharing!
 📩 Contact
 For any suggestions or collaborations, feel free to connect with me:
 
-📧 Email: vanshkumar707878@gmail.com@example.com
+📧 Email: vanshkumar707878@gmail.com
 
 🌐 Portfolio: https://portfolio.uca.icu/
 
