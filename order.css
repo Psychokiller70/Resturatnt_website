@@ -7,7 +7,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #fff8f0;
   color: #333;
-  margin: 0;
   padding: 0 12px 60px; /* Bottom padding for cart */
   min-height: 100vh;
 }
